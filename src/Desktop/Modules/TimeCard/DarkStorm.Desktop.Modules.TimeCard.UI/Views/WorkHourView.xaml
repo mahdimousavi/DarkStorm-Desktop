@@ -1,0 +1,52 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+         xmlns:prism="clr-namespace:Microsoft.Practices.Prism.Interactivity;assembly=Microsoft.Practices.Prism.Interactivity"
+            xmlns:ViewModels="clr-namespace:DarkStorm.Desktop.Modules.TimeCard.UI.ViewModels"
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            x:Class="DarkStorm.Desktop.Modules.TimeCard.UI.Views.WorkHourView" 
+    
+             mc:Ignorable="d">
+    <Grid >
+        <ExtendedGridControl:ExtendedDataGrid Visibility="{Binding TotalVisibility}" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding WorkHoursCV}" SelectedItem="{Binding SelectedWorkCode}"  RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Binding="{Binding Hours}" Header="Hours" Width="SizeToHeader"/>
+                
+                <DataGridComboBoxColumn Header="Category"
+                SelectedValueBinding="{Binding WorkCodeId}"
+                SelectedValuePath="Id"
+                DisplayMemberPath="Description">
+                    <DataGridComboBoxColumn.ElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=DataContext.WorkCodes , RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                        </Style>
+                    </DataGridComboBoxColumn.ElementStyle>
+                    <DataGridComboBoxColumn.EditingElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=DataContext.WorkCodes , RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                        </Style>
+                    </DataGridComboBoxColumn.EditingElementStyle>
+                </DataGridComboBoxColumn>
+
+                <DataGridComboBoxColumn Header="Employee"
+                SelectedValueBinding="{Binding EmployeeId}"
+                SelectedValuePath="Id">
+                    <DataGridComboBoxColumn.ElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=DataContext.Employees , RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                        </Style>
+                    </DataGridComboBoxColumn.ElementStyle>
+                    <DataGridComboBoxColumn.EditingElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=DataContext.Employees , RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                            <Setter Property="IsEditable" Value="True" />
+                        </Style>
+                    </DataGridComboBoxColumn.EditingElementStyle>
+                </DataGridComboBoxColumn>
+            </DataGrid.Columns>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </Grid>
+</UserControl>

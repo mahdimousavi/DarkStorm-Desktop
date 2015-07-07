@@ -1,0 +1,17 @@
+﻿<Fluent:RibbonTabItem x:Class="DarkStorm.Desktop.Presentation.RibbonTabItems.RTIMainView"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"
+            mc:Ignorable="d" 
+            Fluent:KeyTip.Keys="H" Header="Home">
+    <Fluent:RibbonGroupBox Header="Navigation">
+        <Fluent:Button Header="About" LargeIcon="..\Images\arrow.png"
+                       x:Name="AboutButton"
+                Fluent:KeyTip.AutoPlacement="False"
+                Fluent:KeyTip.HorizontalAlignment="Center"
+                Fluent:KeyTip.VerticalAlignment="Center"
+                Fluent:KeyTip.Keys="A" />
+    </Fluent:RibbonGroupBox>
+</Fluent:RibbonTabItem>

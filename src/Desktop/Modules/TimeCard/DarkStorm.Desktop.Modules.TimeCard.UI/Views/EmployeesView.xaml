@@ -1,0 +1,25 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+         xmlns:prism="clr-namespace:Microsoft.Practices.Prism.Interactivity;assembly=Microsoft.Practices.Prism.Interactivity"
+            xmlns:ViewModels="clr-namespace:DarkStorm.Desktop.Modules.TimeCard.UI.ViewModels"
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            x:Class="DarkStorm.Desktop.Modules.TimeCard.UI.Views.EmployeesView" 
+    
+             mc:Ignorable="d">
+    <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible">
+        <ExtendedGridControl:ExtendedDataGrid IsReadOnly="True" Visibility="{Binding TotalVisibility}" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding EmployeesCV}"  RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Binding="{Binding FirstName}" Header="FirstName" Width="SizeToHeader"/>
+                <DataGridTextColumn  Binding="{Binding LastName}" Header="LastName" Width="SizeToHeader"/>
+                <DataGridTextColumn  Binding="{Binding Company}" Header="Company" Width="SizeToHeader"/>
+                <DataGridTextColumn  Binding="{Binding EmailAddress}" Header="EmailAddress" Width="SizeToHeader"/>
+                <DataGridTextColumn  Binding="{Binding JobTitle}" Header="JobTitle" Width="SizeToHeader"/>
+                <DataGridTextColumn  Binding="{Binding BusinessPhone}" Header="BusinessPhone" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </ScrollViewer>
+</UserControl>

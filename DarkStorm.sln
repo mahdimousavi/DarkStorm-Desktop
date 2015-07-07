@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{FA027C17-4B5A-479A-8199-B84B32ECF534}"
+	ProjectSection(SolutionItems) = preProject
+		lib\BreadcrumbLib.dll = lib\BreadcrumbLib.dll
+		lib\NavigationPane.dll = lib\NavigationPane.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50EE78BA-BDFC-4775-A900-2D48775C3881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{19AB86E4-0B9F-48FE-9724-E0477F5F6F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Presentation", "src\Desktop\Presentation\DarkStorm.Desktop.Presentation\DarkStorm.Desktop.Presentation.csproj", "{D8DCD647-7431-44FB-97A2-F8423CF6B76E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7E8F3DC9-BA7C-45FD-90EE-908F1DEB87B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{54CCF5DA-7BB2-43A0-9951-CFAF624BEE1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A35869B6-B8BA-435F-B92F-A1CE61EF5DCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{18D22D7B-69BE-45D4-98E9-A0D9FEC12B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Infrastructure", "src\Desktop\Infrastructure\DarkStorm.Desktop.Infrastructure\DarkStorm.Desktop.Infrastructure.csproj", "{3489D02E-8587-4DAC-83A5-8BB531CA32F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeCard", "TimeCard", "{29479018-1B9D-4B3A-B354-4C40B4F5C22F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Modules.TimeCard.UI", "src\Desktop\Modules\TimeCard\DarkStorm.Desktop.Modules.TimeCard.UI\DarkStorm.Desktop.Modules.TimeCard.UI.csproj", "{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Modules.TimeCard.Data", "src\Desktop\Modules\TimeCard\DarkStorm.Desktop.Modules.TimeCard.Data\DarkStorm.Desktop.Modules.TimeCard.Data.csproj", "{2809D159-24E9-4316-BC0D-821D3895DCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Modules.TimeCard.Domain", "src\Desktop\Modules\TimeCard\DarkStorm.Desktop.Modules.TimeCard.Domain\DarkStorm.Desktop.Modules.TimeCard.Domain.csproj", "{3D268550-B202-492E-AF34-7551DFC9A1D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkStorm.Desktop.Modules.TimeCard.Services", "src\Desktop\Modules\TimeCard\DarkStorm.Desktop.Modules.TimeCard.Services\DarkStorm.Desktop.Modules.TimeCard.Services.csproj", "{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8DCD647-7431-44FB-97A2-F8423CF6B76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DCD647-7431-44FB-97A2-F8423CF6B76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DCD647-7431-44FB-97A2-F8423CF6B76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DCD647-7431-44FB-97A2-F8423CF6B76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3489D02E-8587-4DAC-83A5-8BB531CA32F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3489D02E-8587-4DAC-83A5-8BB531CA32F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3489D02E-8587-4DAC-83A5-8BB531CA32F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3489D02E-8587-4DAC-83A5-8BB531CA32F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2809D159-24E9-4316-BC0D-821D3895DCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2809D159-24E9-4316-BC0D-821D3895DCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2809D159-24E9-4316-BC0D-821D3895DCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2809D159-24E9-4316-BC0D-821D3895DCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D268550-B202-492E-AF34-7551DFC9A1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D268550-B202-492E-AF34-7551DFC9A1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D268550-B202-492E-AF34-7551DFC9A1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D268550-B202-492E-AF34-7551DFC9A1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8DCD647-7431-44FB-97A2-F8423CF6B76E} = {7E8F3DC9-BA7C-45FD-90EE-908F1DEB87B4}
+		{7E8F3DC9-BA7C-45FD-90EE-908F1DEB87B4} = {54CCF5DA-7BB2-43A0-9951-CFAF624BEE1D}
+		{54CCF5DA-7BB2-43A0-9951-CFAF624BEE1D} = {50EE78BA-BDFC-4775-A900-2D48775C3881}
+		{A35869B6-B8BA-435F-B92F-A1CE61EF5DCD} = {54CCF5DA-7BB2-43A0-9951-CFAF624BEE1D}
+		{18D22D7B-69BE-45D4-98E9-A0D9FEC12B9D} = {54CCF5DA-7BB2-43A0-9951-CFAF624BEE1D}
+		{3489D02E-8587-4DAC-83A5-8BB531CA32F1} = {18D22D7B-69BE-45D4-98E9-A0D9FEC12B9D}
+		{29479018-1B9D-4B3A-B354-4C40B4F5C22F} = {A35869B6-B8BA-435F-B92F-A1CE61EF5DCD}
+		{A44FAD5F-4FFC-46DD-A0A7-868A12C4A8A7} = {29479018-1B9D-4B3A-B354-4C40B4F5C22F}
+		{2809D159-24E9-4316-BC0D-821D3895DCA2} = {29479018-1B9D-4B3A-B354-4C40B4F5C22F}
+		{3D268550-B202-492E-AF34-7551DFC9A1D7} = {29479018-1B9D-4B3A-B354-4C40B4F5C22F}
+		{7B2B5DDB-D59F-47BF-9D7A-8D27654D689D} = {29479018-1B9D-4B3A-B354-4C40B4F5C22F}
+	EndGlobalSection
+EndGlobal

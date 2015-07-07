@@ -1,0 +1,20 @@
+﻿DarkStorm.Desktop.Modules.TimeCard.UI
+
+
+library
+C#
+.cs
+C:\Users\Mahdi\Documents\GitHub\DarkStorm-Desktop\src\Desktop\Modules\TimeCard\DarkStorm.Desktop.Modules.TimeCard.UI\obj\Debug\
+DarkStorm.Desktop.Modules.TimeCard.UI
+none
+false
+DEBUG;TRACE
+
+12-563513562
+1-878442520
+312114511493
+40-1280780831
+Navigations\NPITimeCard.xaml;RibbonTabItems\RTIEmployeesView.xaml;RibbonTabItems\RTITCDashboard.xaml;RibbonTabItems\RTIWorkCodeView - Copy.xaml;RibbonTabItems\RTIWorkHourView.xaml;RibbonTabItems\RTIEmployeeView.xaml;Dialogues\About.xaml;Views\EmployeeView.xaml;Views\EmployeesView.xaml;Views\TCDashboard.xaml;Views\WorkHourView.xaml;Views\WorkCodeView.xaml;
+
+False
+

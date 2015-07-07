@@ -1,0 +1,12 @@
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\Darkstorm.Desktop.Data.Core.dll.config
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\Darkstorm.Desktop.Data.Core.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\Darkstorm.Desktop.Data.Core.pdb
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\Darkstorm.Desktop.Domain.Core.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\EntityFramework.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\Darkstorm.Desktop.Domain.Core.pdb
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\EntityFramework.xml
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\obj\Debug\Darkstorm.Desktop.Data.Core.csprojResolveAssemblyReference.cache
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\obj\Debug\Darkstorm.Desktop.Data.Core.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Data\Darkstorm.Desktop.Data.Core\obj\Debug\Darkstorm.Desktop.Data.Core.pdb

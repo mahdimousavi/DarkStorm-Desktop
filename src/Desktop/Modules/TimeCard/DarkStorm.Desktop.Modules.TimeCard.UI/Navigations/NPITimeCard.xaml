@@ -1,0 +1,29 @@
+﻿<s:NavigationPaneItem
+    x:Class="DarkStorm.Desktop.Modules.TimeCard.UI.Navigations.NPITimeCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:s="NavigationPane"
+            Name="TimeCard"
+                                  Header="Time Card"
+                                  Image="pack://application:,,,/NavigationPane;Component\Resources\Images\WindowsHS.png">
+    <s:NavigationPaneItem.SubItems>
+        <s:NavigationPaneButton Content="Time Card" />
+    </s:NavigationPaneItem.SubItems>
+        <TreeView Background="Transparent" BorderBrush="Transparent">
+            <Hyperlink  Click="GoToDashboard">Time Card Dashboard</Hyperlink>
+            <Hyperlink  Click="GoToEmployees">Employee List</Hyperlink>
+            <TreeViewItem  Header="Entries">
+                <Hyperlink  Click="GoToWorkCode">Work Code List</Hyperlink>
+                <Hyperlink  Click="GoToWorkHours">Work Hours List</Hyperlink>
+            </TreeViewItem>
+
+            <TreeViewItem  Header="Reports">
+            <Hyperlink  Click="GoToBillableHoursEmp">Billable Hours by Employee</Hyperlink>
+            <Hyperlink  Click="GoToEmpAddressBook">Employee Address Book</Hyperlink>
+                <Hyperlink  Click="GoToEmpPhoneList">Employee Phone List</Hyperlink>
+            <Hyperlink  Click="GoToNonBillablebyEmp">Non-Billable Hours by Employee</Hyperlink>
+        </TreeViewItem>
+        </TreeView>
+</s:NavigationPaneItem>

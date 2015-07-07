@@ -1,0 +1,29 @@
+﻿<Fluent:RibbonTabItem x:Class="DarkStorm.Desktop.Modules.TimeCard.UI.RibbonTabItems.RTIEmployeesView"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"
+            mc:Ignorable="d" 
+            Fluent:KeyTip.Keys="A" Header="Home">
+    <Fluent:RibbonGroupBox Header="Actions">
+        <Fluent:Button Header="Add"
+                       x:Name="NewButton"
+                Fluent:KeyTip.AutoPlacement="False"
+                Fluent:KeyTip.HorizontalAlignment="Center"
+                Fluent:KeyTip.VerticalAlignment="Center"
+                Fluent:KeyTip.Keys="A" />
+        <Fluent:Button Header="Edit"
+                       x:Name="EditButton"
+                Fluent:KeyTip.AutoPlacement="False"
+                Fluent:KeyTip.HorizontalAlignment="Center"
+                Fluent:KeyTip.VerticalAlignment="Center"
+                Fluent:KeyTip.Keys="E"/>
+        <Fluent:Button Header="Delete"
+                       x:Name="DeleteButton"
+                Fluent:KeyTip.AutoPlacement="False"
+                Fluent:KeyTip.HorizontalAlignment="Center"
+                Fluent:KeyTip.VerticalAlignment="Center"
+                Fluent:KeyTip.Keys="D" />
+    </Fluent:RibbonGroupBox>
+</Fluent:RibbonTabItem>

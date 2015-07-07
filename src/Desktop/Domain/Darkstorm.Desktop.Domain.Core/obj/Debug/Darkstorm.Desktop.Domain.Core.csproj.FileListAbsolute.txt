@@ -1,0 +1,5 @@
+F:\Projects\IFM\DarkStorm\src\Desktop\Domain\Darkstorm.Desktop.Domain.Core\bin\Debug\Darkstorm.Desktop.Domain.Core.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Domain\Darkstorm.Desktop.Domain.Core\bin\Debug\Darkstorm.Desktop.Domain.Core.pdb
+F:\Projects\IFM\DarkStorm\src\Desktop\Domain\Darkstorm.Desktop.Domain.Core\obj\Debug\Darkstorm.Desktop.Domain.Core.dll
+F:\Projects\IFM\DarkStorm\src\Desktop\Domain\Darkstorm.Desktop.Domain.Core\obj\Debug\Darkstorm.Desktop.Domain.Core.pdb
+F:\Projects\IFM\DarkStorm\src\Desktop\Domain\Darkstorm.Desktop.Domain.Core\obj\Debug\Darkstorm.Desktop.Domain.Core.csprojResolveAssemblyReference.cache
